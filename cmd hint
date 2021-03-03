@@ -1,0 +1,5 @@
+python3 setup.py sdist bdist_wheel
+
+Change version number, delete current wheel and gz file in dist directory
+
+python3 -m twine upload  dist/*
